@@ -1,25 +1,177 @@
-body{ margin: 0; background: black;}
-.clear { clear: both }
-
-a.call_to_action {
-  background: url(/images/call_to_action.png) no-repeat;
-  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.4, rgb(208,41,26)), color-stop(0.76, rgb(246,71,44)) );
-  background-image: -moz-linear-gradient( center bottom, rgb(208,41,26) 40%, rgb(246,71,44) 76% );
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-  -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-  box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-  color: #FFFFFF;
-  cursor: pointer;
-  display: block;
-  font-size: 29px;
-  padding: 15px 10px;
-  margin: 20px;
-  text-align: center;
+body{ 
+	margin: 0;
+	}
+	
+.clear { 
+	clear: both 
+	}
+	
+*{
+	margin: 0;
+	padding: 0;
 }
-a.call_to_action:hover {
-  background: url(/images/call_to_action.png) no-repeat;
-  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.4, rgb(246,71,44)), color-stop(0.76, rgb(208,41,26)) );
-  background-image: -moz-linear-gradient( center bottom, rgb(246,71,44) 40%, rgb(208,41,26) 76% );
+
+.fold_1{
+	width: 100%;
+	height: 780px;
+	background-image: url('/images/bg-1.jpg');
+}
+
+.fold_2{
+	width: 100%;
+	height: 780px;
+	background-image: url('/images/bg-2.jpg');
+}
+
+.fold_3{
+	width: 100%;
+	height: 780px;
+	background-image: url('/images/bg-3.jpg');
+}
+
+.fold_4{
+	width: 100%;
+	height: 780px;
+	background-image: url('/images/bg-4.jpg');
+}
+
+
+.wrapper {
+	width: 950px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 125px;
+	color: #BBC0BD;
+	font-family: arial;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 90px;
+	font-family: arial;
+	color: #228B90;
+	line-height: 50px;
+}
+
+p, h3 {
+	color: #BBC0BD;
+	font-family: 'helvetica', 'arial';
+	font-weight: lighter;
+	line-height: 29px;
+	text-align: justify;
+	margin: 20px 0 0 0;
+}
+
+h3 {
+	font-weight: bolder;
+	color: #686868;
+	font-size: 18px;
+	line-height: 10px;
+}
+
+a {
+	color: #fe5502;
+}
+
+a:hover {
+	color: #404040;
+}
+
+.title {
+	position: relative;
+	top: 80px;
+	float: left;
+	text-align: center;
+	margin: 0 0 50px 170px;
+}
+
+.text {
+	float: left;
+	margin: 60px 0 0 0;
+}
+
+.image {
+	float: right;
+	margin: 40px 0 0 0;
+}
+
+.background {
+	width: 100%;
+	background-image: url('/images/dolls.png');
+	height: 425px;
+}
+
+.left {
+	float: left;
+	width: 43%;
+}
+
+.text.left {
+	border-right: 1px dashed #228B90;
+	padding: 0 50px 0 0;
+}
+
+.text.left p {
+	font-size: 30px;
+	text-align: left;
+	line-height: 35px;
+}
+
+.right {
+	float: right;
+	width: 45%;
+}
+
+.title2 {
+	position: relative;
+	top: 60px;	
+}
+
+.fold_2 h1, .fold_4 h1 {
+	font-size: 83px;
+	color: #686868;
+	text-align: center;
+}
+
+.fold_2 p, .fold_4 p {
+	color: #686868;
+}
+
+.fold_3 h1{
+	font-size: 120px;
+}
+
+.fold_4 h1 {
+	font-size: 120px;
+	text-align: left;
+}
+
+.measure {
+	background-image: url('/images/measure.jpg');
+	width: 100%;
+	height: 52px;
+}
+
+.engagement {
+	margin-top: 90px;
+}
+
+.engagement p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.facebook {
+	margin-top: 80px;
+	width: 55%;
+}
+
+.ideas {
+	width: 70%;
+}
+
+.ideas p {
+	line-height: 26px;
 }
