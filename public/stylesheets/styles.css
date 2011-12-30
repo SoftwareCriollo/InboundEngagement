@@ -35,6 +35,12 @@ body{
 	background-image: url('/images/bg-4.jpg');
 }
 
+.fold_5{
+	width: 100%;
+	height: 780px;
+	background-image: url('/images/bg-6.png');
+}
+
 
 .wrapper {
 	width: 950px;
@@ -129,7 +135,7 @@ a:hover {
 	top: 60px;	
 }
 
-.fold_2 h1, .fold_4 h4 {
+.fold_2 h1, .fold_4 h4, .fold_5 h4 {
 	font-size: 83px;
 	color: #686868;
 	text-align: center;
@@ -146,6 +152,12 @@ a:hover {
 .fold_4 h4 {
 	font-size: 120px;
 	text-align: left;
+}
+
+.fold_5 h4 {
+	letter-spacing: -4px;
+	float: left;
+	margin: 0 0 20px 0;
 }
 
 .measure {
@@ -168,11 +180,11 @@ a:hover {
 	width: 55%;
 }
 
-.ideas {
+.ideas, .herramientas_text {
 	width: 70%;
 }
 
-.ideas p {
+.ideas p, .herramientas_text p {
 	line-height: 24px;
 }
 
@@ -188,3 +200,32 @@ a:hover {
 	float: left;
 }
 
+.herramientas {
+	float: left;
+	margin: 50px 0 10px 0;
+}
+
+.herramientas h5 {
+	font-family: 'helvetica', 'arial';
+	font-size: 29px;
+	font-weight: lighter;
+	line-height: 36px;
+	border-bottom: 1px dashed #228B90;
+	padding-bottom: 20px;
+	color: #686868;
+	margin-bottom: 20px;
+}
+
+.herramientas_text {
+	width: 70%;
+}
+
+.herramientastext h3 {
+    border: 0;
+    font-size: 18px;	
+    margin-bottom: 0;
+}
+
+.ideas p, .herramientas_text p {
+	color: #686868;
+}
