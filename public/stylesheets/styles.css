@@ -55,10 +55,10 @@ h1, h4 {
 }
 
 h2 {
-	font-size: 90px;
+	font-size: 210px;
 	font-family: arial;
 	color: #228B90;
-	line-height: 50px;
+	line-height: 90px;
 }
 
 p, h3 {
@@ -87,10 +87,10 @@ a:hover {
 
 .title {
 	position: relative;
-	top: 80px;
+	top: 100px;
 	float: left;
 	text-align: center;
-	margin: 0 0 50px 170px;
+	margin: 0 0 150px 100px;
 }
 
 .text {
