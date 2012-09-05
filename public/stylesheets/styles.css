@@ -94,9 +94,8 @@ a:hover {
 .title {
 	position: relative;
 	top: 100px;
-	float: left;
 	text-align: center;
-	margin: 0 0 150px 100px;
+	margin: 0 auto 150px;
 }
 
 .text {
@@ -138,7 +137,14 @@ a:hover {
 
 .title2 {
 	position: relative;
-	top: 60px;	
+	top: 60px;
+}
+.title2 h4, .title2 h1, x:-moz-any-link {
+	letter-spacing: -9px;
+}
+
+.fold1_content .title2 h4, x:-moz-any-link {
+	letter-spacing: -10px;
 }
 
 .fold_2 h1, .fold_4 h4, .fold_5 h4 {
@@ -204,6 +210,10 @@ a:hover {
 
 .twitter, .fb-like, .google-plus {
 	float: left;
+}
+
+.google-plus {
+	margin-left: 25px;
 }
 
 .herramientas {
