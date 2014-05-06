@@ -60,7 +60,7 @@ body{
 
 .fold_5{
 	width: 100%;
-	height: 780px;
+	height: 950px;
 	background-image: url('/images/bg-6.png');
 }
 
@@ -69,7 +69,6 @@ body{
 	height: 1700px;
 	background-image: url('/images/bg-6.jpg');
 }
-
 
 .wrapper {
 	width: 950px;
@@ -317,3 +316,25 @@ margin:0px;
 padding-right:30px;
 background: url(/images/comilla_cierra.png) bottom right no-repeat; /* aquí especificamos donde se encuentra la imagen de nuestra comilla que cierra y la ubicamos */
 }
+
+.createdby{
+	width: 70%;
+	margin: 2em auto;
+	text-align: center;
+	border-top: 1px solid #ccc;
+	padding: 1em 0 0 0;
+}
+
+.createdby h1, .createdby a{
+	font-size: 2em !important;
+	letter-spacing: -1px;
+	color: #686868;
+	line-height: 2em;
+}
+
+.createdby a{
+	font-size: 1em !important;
+}
+
+.createdby a:hover{
+	color: #fe5502;
