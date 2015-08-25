@@ -9,7 +9,7 @@ end
 
 
 get '/' do
-  haml :layout
+  redirect to("http://engagement.softwarecriollo.com"), 301
 end
 
 
